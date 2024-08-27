@@ -1,0 +1,9 @@
+name : bye	Feedback : nice game well done
+name : hello	Feedback : nice
+name : wow	Feedback : nice
+name : nice	Feedback : nice
+name : ashay	Feedback : well done
+name : ashay	Feedback : excellent game!!
+name : trial	Feedback : nice
+name : trial2	Feedback : nice
+name : nayanesh	Feedback : nice

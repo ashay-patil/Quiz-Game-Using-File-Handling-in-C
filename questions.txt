@@ -1,0 +1,151 @@
+
+1. What is C?
+a) Language b) Program c) System d) Code
+a
+2. Who developed C?
+a) Bell b) Kernighan c) Stroustrup d) Ritchie
+d
+3. Which function is used to print in C?
+a) scanf b) print c) printf d) display
+c
+4. What is a comment in C?
+a) // b) /* c) # d) ; 
+a 
+5. What does "int" stand for in C?
+a) Integral b) Integer c) Integer number d) Integrate
+b
+6. What is the default return type of a function in C?
+a) null b) void c) int d) empty
+b
+7. Which symbol is used for the modulus operator?
+a) % b) & c) / d) #
+a
+8. How to define a constant in C?
+a) const b) define c) constant d) var
+a
+9. What does the "scanf" function do in C?
+a) Print b) Read c) Initialize d) Execute
+b
+10. Which operator is used for equality checking?
+a) = b) == c) === d) !=
+b
+11. What does "sizeof" return in C?
+a) Memory b) Value c) Size d) Address
+c
+12. which datatype declares a variable in C?
+a) set b) create c) define d) int
+d
+13. What is used to terminate a statement in C?
+a) . b) ; c) : d) ,
+b
+14. Which loop will execute at least once?
+a) for b) while c) do-while d) switch
+c
+15. What does the "break" statement do in C?
+a) Terminate b) Skip c) Continue d) Exit
+a
+16. Which operator is used to access value through a pointer?
+a) & b) * c) -> d) ::
+b
+17. What is the purpose of "void" in a function?
+a) Return type b) Variable c) Loop d) Condition
+a
+18. How to include a header file in C?
+a) include b) add c) import d) #include
+d
+19. What is the data type for characters in C?
+a) string b) char c) character d) letter
+b
+20. How to allocate memory dynamically in C?
+a) new b) malloc c) allocate d) create
+b
+21. What does "++x" do differently from "x++" in C?
+a) Increment before b) Decrement c) Increment after d) No difference
+a
+22. What is used to access elements in an array in C?
+a) [] b) {} c) () d) <>
+a
+23. What is the purpose of the "continue" statement in C?
+a) End loop b) Skip iteration c) Return d) Terminate
+b
+24. Which is not a valid C keyword?
+a) for b) loop c) while d) do
+b
+25. What does "fgets" do in C?
+a) Read b) Print c) Copy d) Concatenate
+a
+26. What is the operator for the address-of?
+a) * b) @ c) & d) #
+c
+27. What is the purpose of a "do-while" loop in C?
+a) Iterate b) Execute at least once c) Skip d) Exit
+b
+28. How do you declare a 2D array in C?
+a) [][] b) [][]() c) [][]{} d) [,]
+a
+29. What is the "sizeof" operator used for in C?
+a) Find file size b) Memory c) Type size d) Execution time
+c
+30. What is the purpose of "char" in C?
+a) Integer b) String c) Character d) Variable
+c
+31. What does the "getchar" function do in C?
+a) Read character b) Print character c) Write character d) Allocate character
+a
+32. Which is a valid pointer declaration?
+a) int ptr b) char ptr c) char * ptr d) int #ptr
+c
+33. What does the "else" statement do in C?
+a) Begin loop b) End loop c) Execute if condition is false d) Execute if condition is true
+c
+34. What does "&&" represent in C?
+a) OR b) AND c) NOT d) XOR
+b
+35. How to define a constant pointer in C?
+a) const *int ptr b) *const int ptr c) const int *ptr d) int *const ptr
+d
+36. What is the header file for input/output in C?
+a) <input.h> b) <stdio.h> c) <stdlib.h> d) <io.h>
+b
+37. What is the purpose of "break" in a switch statement in C?
+a) End program b) Skip case c) Terminate d) Exit loop
+c
+38. What is the default value of an uninitialized global variable in C?
+a) 0 b) 1 c) NULL d) Garbage value
+d
+39. What is the "do-while" loop in C used for?
+a) Execute repeatedly b) Execute at least once c) Execute a fixed times d) Execute if condition is true
+b
+40. What does the "return" statement do in a function in C?
+a) Exit program b) Return a value to calling function c) Skip iteration d) End loop
+b
+41. What is the purpose of "include" in C?
+a) Import functions b) Include libraries c) Add comments d) Define variables
+b
+42. What is used to allocate memory dynamically in C?
+a) new b) malloc c) allocate d) create
+b
+43. What is the purpose of "continue" in a loop in C?
+a) Terminate loop b) Skip iteration c) End program d) Print value
+b
+44. What does "||" represent in C?
+a) OR b) AND c) NOT d) XOR
+a
+45. What is the symbol for the pointer operator in C?
+a) * b) & c) -> d) ::
+a
+46. Which header file is used for dynamic memory allocation in C?
+a) <alloc.h> b) <stdlib.h> c) <memory.h> d) <malloc.h>
+b
+47. What is the purpose of the "switch" statement in C?
+a) Execute code repeatedly b) Execute code at least once c) Choose between multiple options d) Compare values
+c
+48. How do you declare a string in C?
+a) string myString b) "Hello, World!" c) char myString[] = "Hello, World!"; d) char myString = "Hello, World!";
+c
+49. What is the result of "5 + 3 / 2" in C?
+a) 4 b) 5 c) 6 d) 3
+c
+50. What is the purpose of the "break" statement in C?
+a) Exit program b) Exit loop or switch statement c) Return a value d) Display an error message
+b

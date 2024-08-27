@@ -1,0 +1,61 @@
+
+1.What does the `volatile` keyword in C do?
+A. const   B. noopt   C. var   D. restrict  
+B
+2.Which is not a valid C data type?
+A. ldbl   B. wct   C. loop   D. sht  
+C
+3.Result of `sizeof(int) > -1`?
+A. T   B. F   C. CE   D. UB  
+A
+4.Output of `printf("%d", 0 ? 1 : 0);`?
+A. 0   B. 1   C. CE   D. RE  
+A
+5.`register` keyword purpose?
+A. reg   B. ptr   C. alloc   D. const  
+A
+6.Value of `x=10` after `x = x++ + ++x;`?
+A. 20   B. 21   C. 22   D. 23  
+B
+7.Result of `5 ^ 3`?
+A. 0   B. 1   C. 2   D. 8  
+C
+8.Commonly used macro definition syntax?
+A. #define MACRO()   B. #define MACRO { }   C. #define MACRO   D. #define MACRO { }
+A
+9.Purpose of `__func__`?
+A. ret   B. name   C. args   D. line  
+B
+10.Use of `size_t`?
+A. file size   B. struct size   C. var size   D. unsigned size  
+D
+11.What `strcat()` does?
+A. Append   B. Copy   C. Concatenate   D. Compare  
+C
+12.Access struct member using?
+A. .   B. ->   C. :   D. ::  
+A
+13.How is structure memory allocated?
+A. stack   B. heap   C. static   D. dynamic  
+B
+14.Declare pointer to constant int?
+A. int*   B. const int*   C. int const*   D. const int *
+B
+15.Output of #define SQUARE(x) ((x) * (x)) with `SQUARE(3 + 1)`?
+A. 16   B. 12   C. 10   D. CE  
+B
+16.Purpose of `getchar()`?
+A. read   B. write   C. ASCII   D. digit  
+A
+17.How to concatenate two strings?
+A. strcat()   B. stcat()   C. strcopy()   D. strconcat()  
+A
+18.Correct syntax for a macro definition?
+A. #define MACRO_NAME()   B. #define MACRO_NAME { }   C. #define MACRO_NAME   D. #define MACRO_NAME { }  
+A
+19.Purpose of `size_t`?
+A. file size   B. struct size   C. var size   D. unsigned size  
+D
+20.Which operator is used to access structure members?
+A. .   B. ->   C. :   D. ::  
+A

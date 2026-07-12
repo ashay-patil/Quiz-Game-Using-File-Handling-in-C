@@ -1,4 +1,4 @@
-It is a Quiz Game project of nearly 400 lines of C code. <br>
+It is a Quiz Game in C language. <br>
 It uses concept of File handling in C. <br>
 There are 5 files used in the project namely the C code, leaderboard file, level 1 questions, level 2 questions, feedback file.<br>
 The level 1 stores 50 questions of easy to moderate level. <br>

@@ -1,5 +1,3 @@
-//including libraries
-
 #include<stdio.h>
 
 #include<string.h>
@@ -11,8 +9,6 @@
 #include<stdlib.h>
 
 #include<ctype.h>
-
-//help function
 
 void displayhelp(){
 
@@ -37,12 +33,10 @@ void sort(int count, char name[100][30], int score[100]) {
     for (int i = 0; i < count - 1; i++) {
         for (int j = 0; j < count - i - 1; j++) {
             if (score[j] < score[j + 1]) {
-                // Swap scores
                 temp = score[j];
                 score[j] = score[j + 1];
                 score[j + 1] = temp;
 
-                // Swap names
                 strcpy(arrtemp, name[j]);
                 strcpy(name[j], name[j + 1]);
                 strcpy(name[j + 1], arrtemp);
@@ -51,7 +45,7 @@ void sort(int count, char name[100][30], int score[100]) {
     }
 }
 
-// home function
+
 void displayhome(char name[100]){
     printf("\n\n-----------------------------------------------------------------------------------------------------\n\n");
     printf("                                  WELCOME TO QUIZ GAME %s\n\n",name);
@@ -70,7 +64,7 @@ void displayhome(char name[100]){
 int main(){
 
 
-    FILE *fptr;    // declaring file pointer
+    FILE *fptr;
 
     char user_answer,correct_answer,choice,choice2;
 
@@ -78,29 +72,20 @@ int main(){
 
     int score=0;
 
-    //start the game
 
-
-    printf("\nEnter you name please(first name only) : "); //prompting user to tell his first name
+    printf("\nEnter you name please(first name only) : ");
     scanf(" %s",name);
 
-    //clear screen
+
     system("cls");
-
-    //design home screen
-
 
     home:
     displayhome(name);
     scanf(" %c",&choice);
 
-    //clear screen;
     system("cls");
 
     printf("\n\n");
-
-
-    //design help screen
 
 
     if(toupper(choice)=='H'){
@@ -110,8 +95,8 @@ int main(){
         scanf(" %c",&choice2);
 
         if(toupper(choice2)=='R'){
-            system("cls");//clear screen
-            goto home;   // goto statement is used to transfer control to label(here label is home)
+            system("cls");
+            goto home; 
         }
 
         else {
@@ -120,7 +105,7 @@ int main(){
                 scanf(" %c",&choice2);
             }
             if(toupper(choice2)=='R') {
-                    system("cls"); //clear screen
+                    system("cls");
                     goto home;
             }
 
@@ -128,14 +113,13 @@ int main(){
 
     }
 
-    //start the quiz
 
     else if(toupper(choice)=='S'){
 
         printf("\n\n\n");
         printf("---------------------------------------QUIZ STARTED----------------------------------------\n\n");
 
-        fptr=fopen("questions.txt","r");  //open the file
+        fptr=fopen("questions.txt","r");
 
         char question[10000];
 
@@ -172,7 +156,7 @@ int main(){
 
             if(toupper(correct_answer)==toupper(user_answer)) {
                     printf("\n\ncorrect!!\n\n");
-                    score++;  // increment the score
+                    score++;
             }
 
             if(toupper(correct_answer)!=toupper(user_answer)){
@@ -180,8 +164,6 @@ int main(){
                     printf("Correct answer is option %c",correct_answer);
             }
             sleep(2);
-
-            //clear screen
 
             system("cls");
         }
@@ -255,9 +237,7 @@ int main(){
                     printf("Correct answer is option %c",correct_answer);
             }
 
-            sleep(2);  //pause the running of code for 2 second
-
-            //clear screen
+            sleep(2);
 
             system("cls");
 
@@ -269,7 +249,6 @@ int main(){
 
         printf("\n\n--------------------------------THANK YOU-------------------------\n\n\n");
 
-        //giving remarks to player on basis of their score
 
         printf("Your total score is %d\n\n",10*score);
 
@@ -292,17 +271,14 @@ int main(){
         goto home;
     }
 
-    //storing player data in file
 
     FILE *ptr1;
 
     ptr1=fopen("leaderboard.txt", "a");
 
-    fprintf(ptr1, "%s %d\n", name,score*10);   //storing player data in leaderboard file
+    fprintf(ptr1, "%s %d\n", name,score*10);
 
     fclose(ptr1);
-
-    //display data from file
 
     printf("\n\n------------------------------------------SCOREBOARD--------------------------------------\n\n");
 
@@ -337,9 +313,7 @@ int main(){
     printf("Give your feedback.\n\nHow was your experience?\n\nAre there any improvements needed?\n\nWRITE HERE : ");
     char review[1000];
     getchar();  // this getchar function is used to consume \n
-    gets(review); //used to read string
-
-    //storing feedback in file
+    gets(review);
 
     FILE *feedback;
     feedback=fopen("Feedback.txt", "a");
